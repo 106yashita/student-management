@@ -59,7 +59,7 @@ app.get('/getAllOnSearch', (req, res) => {
 app.post('/updateStudent/', (req, res) => {
     try {
         const studentId = req.body.id;
-        const updatedData = req.body.updatedEmp;
+        const updatedData = req.body.updatedStu;
         console.log(updatedData)
         // verify all values are entered correctly
         for (let key in updatedData) {
